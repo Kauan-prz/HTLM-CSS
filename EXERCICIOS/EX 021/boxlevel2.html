@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOXLEVEL 2 - gruping tags</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background-color: dimgray;
+        margin: 0px;
+      }
+       
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+      nav {
+        background-color: gray;
+        box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.438);
+
+      }
+      nav > a {
+        text-decoration: none;
+        background-color: aquamarine;
+        font-weight: bold;
+      }
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 33px;
+      }
+      article {
+        background-color: lightblue;
+        padding: 5px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.329);
+      }
+      article > footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+      }
+      footer{
+        background-color: yellow;
+        color: green;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+      }
+      footer > p{
+        margin: 0px;
+      }
+      div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>meu site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="noticias">
+        <article>
+          <h2>notciais sobre o brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+            suscipit? Modi tempora deserunt hic illum in qui perferendis.
+            Explicabo maxime amet vitae perspiciatis accusantium, eveniet
+            mollitia! Dolorum obcaecati culpa libero.
+          </p>
+          <aside>artigo escrito por kauan</aside>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+        <p>desolvido por kauan</p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>

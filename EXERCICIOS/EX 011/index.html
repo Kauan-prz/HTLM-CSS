@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Tente abrir este site em outros dispositivos ou de zoom no site</h1>
+
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="IMAGENS/foto-p.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="IMAGENS/foto-m.png" type="image/png">
+        <img src="IMAGENS/foto-g.png" alt="imagem grande">
+    </picture>
+
+    <h1>Botando uma musica</h1>
+
+    <p>Vamos aprender a por audio em HTML5</p>
+
+    <audio src="midia/WhatsApp Audio 2024-09-28 at 23.17.19.mpeg" controls autoplay></audio>
+    <!-- nois da o cu porra-->
+
+    <p>e o pix </p>
+
+    <audio preload="auto" autoplay controls loop> 
+        <source src="midia/WhatsApp Audio 2024-09-28 at 23.24.45.mpeg" type="audio/mpeg">
+        <source src="midia/WhatsApp Audio 2024-09-28 at 23.24.45.mpeg" type="audio/ogg">
+        <source src="midia/WhatsApp Audio 2024-09-28 at 23.24.45.mpeg" type="audio/wav">
+    </audio>
+
+    <video src="midia/12411668_3840_2160_25fps.mp4"></video>
+</html>
